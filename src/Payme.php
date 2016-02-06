@@ -248,7 +248,7 @@ class Payme {
      */
     public function setExistingPayment($id)
     {
-        $this->setExistingPayment($id);
+        $this->existingPayment = $id;
         return $this;
     }
 
